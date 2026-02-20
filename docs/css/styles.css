@@ -1,0 +1,79 @@
+body {
+  font-size: 15px;
+  color: #000;
+  background-color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #8A8A8A;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-header .navbar-brand { /* Restaurant name */
+  font-family: 'Nunito', sans-serif;
+  color: #000;
+  font-size: 2.0em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  padding-top: 25px;
+  height: 70px;
+}
+
+#collapsable-nav a { /* Collapsed nav menu text */
+  font-size: 1.2em;
+}
+
+#nav-list {
+  background-color: #E7E7E7;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#nav-list a {  /* Chicken Beef Sushi */
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #000;
+  color: #E7E7E7;
+}
+
+#nav-list > li {
+  border: 1px solid #000;   /* border color + thickness */
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+
+.navbar-header button.navbar-toggle {
+  margin-top: 20px;
+}
+
+#our-menu {
+  background-color: #8A8A8A;
+}
+
+#main-content > h1 {
+  font-family: 'Nunito', sans-serif;
+  color: #000;
+  font-size: 2.0em;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}	
+
+#main-content h2 {
+  font-family: 'Nunito', sans-serif;
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 10px;
+}	
